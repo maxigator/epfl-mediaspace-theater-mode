@@ -29,7 +29,6 @@ const tooltipSpan = document.createElement("span");
 
       // Avoid duplicate buttons
       if (controlsContainer.querySelector(".theater-mode-button")) {
-        clearInterval(checkInterval);
         return;
       }
 
